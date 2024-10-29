@@ -1,0 +1,74 @@
+#main-header {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100%;
+    background-color: #89CFF0;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#input_field {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #777777;
+    font-size: 100%;
+    padding: 5px;
+}
+
+#send_button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #777777;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+}
+
+#send_button:hover {
+    background-color: #696969;
+}
+
+form{
+    display: flex;
+    width: 99vw;
+    height: 50vh;
+    grid-template-columns: 1fr;
+    border-style: dashed;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.fielditem {
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+    margin: 5px;
+}
+
+.fielditem ::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+}
