@@ -1,7 +1,4 @@
 from uagents import Agent, Context, Model
-from flask import Flask
-from time import sleep
-from requests import post, get
 import json
 
 class Message(Model):

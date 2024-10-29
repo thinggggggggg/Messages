@@ -3,16 +3,17 @@ from app import app
 from app.forms import SendMessageForm
 
 USER = {'username': 'willy'}
-MESSAGES = [
-        {
-            'author': {'username': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'username': 'Susan'},
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
+MESSAGES = []
+# MESSAGES = [
+#         {
+#             'author': {'username': 'John'},
+#             'body': 'Beautiful day in Portland!'
+#         },
+#         {
+#             'author': {'username': 'Susan'},
+#             'body': 'The Avengers movie was so cool!'
+#         }
+#     ]
 
 @app.route('/')
 @app.route('/home')
